@@ -8,7 +8,7 @@
 - Extracts full webpage content dynamically, right from the active tab
 - Splits large text into context-aware chunks using `RecursiveCharacterTextSplitter`
 - Embeds chunks into a vector database using `SentenceTransformer` + `FAISS`
-- Uses `Ollama LLaMA 3.2` (via LangChain) as the RAG LLM — runs fully local
+- Uses `Ollama LLaMA 3.2` (via LangChain) as the RAG LLM
 - Handles user queries through a `FastAPI`-based RAG pipeline
 - Lightweight Chrome Extension front-end for 1-click chatting on any page
 
